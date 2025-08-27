@@ -1,0 +1,48 @@
+---
+title: "Akash's Website"
+image: "IMG_6601.HEIC"
+links:
+  - label: LinkedIn
+    url: "https://linkedin.com/in/akashrajeev"
+  - label: GitHub
+    url: "https://github.com/akash-rajeev"
+  - label: Email
+    url: "mailto:akash.rajeev@utexas.edu"
+
+
+output:
+  postcards::trestles
+
+---
+ 
+I am a student at UT Austin, studying Statistics and Data Science. I enjoy cooking,
+woodworking, and hiking in my free time. This is a website created for
+SDS375 - Data Product Development.
+
+
+
+Here is an list of three websites:
+
+* [WindowSwap](https://www.window-swap.com/) - "Watch Windows Around The World"
+
+* [EXP TV](https://exptv.org/) - "EXP TV is a live tv channel broadcasting an endless stream of obscure media and video ephemera."
+
+* [BirdCast](https://birdcast.info/) - "Bird migration forecasts in real-time"
+
+<div style="padding-bottom: 60px;"></div>
+
+<footer style="
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+  background: #f8f8f8;
+  font-size: 1.0em;
+  border-top: 1px solid #ddd;
+  z-index: 1000;
+">
+  Time of creation: `r Sys.time()`
+
+
