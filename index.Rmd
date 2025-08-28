@@ -43,6 +43,6 @@ Here is an list of three websites:
   border-top: 1px solid #ddd;
   z-index: 1000;
 ">
-  Time of creation: `r Sys.time()`
+  Build time: `r Sys.time()`
 
 
